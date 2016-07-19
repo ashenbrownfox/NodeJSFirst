@@ -45,4 +45,5 @@ console.log("Eeyore: "+Eeyore.life);
 User.prototype.Magic = 60;
 //importing
 var movies = require("./movies");
-movies.avatar();
+movies.printAvatar();
+console.log(movies.favMovie);

@@ -1,12 +1,12 @@
-Module.exports = {
+//Module Exports
+module.exports = {
+    printAvatar: function(){
+        console.log("Avatar: PG-13");
+    },
+    printChap: function(){
+        console.log("Chappie: R");
+    },
+    favMovie: "Trainwreck"
+};
 
-}
-
-function printAvatar(){
-    console.log("Avatar: PG-13")
-}
-function printChap(){
-    console.log("Chappie: R")
-}
 //how to export code
-module.exports.avatar = printAvatar;
